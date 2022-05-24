@@ -1,0 +1,169 @@
+* {
+    margin: o auto; 
+}
+
+.navbar {
+    height: 200px;
+    width: 2000px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+    .Login   {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    font-size: 30px;
+    border-style: ridge;
+    border-color: black;
+    margin-top: 40px;
+    margin-right: 90px;
+}
+
+
+
+.navbar h1 {
+    font-size: 90px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
+
+
+.searchbar {
+    height: 50px;
+    width: 600px;
+    background-color: white;
+    border-style: ridge;
+    border-color: black;
+    color: dimgrey;
+    margin-top: 60PX;
+    justify-content: center;
+    font-size: 40px;
+
+}
+
+.container {
+    width: 2000px; 
+    height: 1200px;
+    display: flex; 
+    
+}
+
+
+.leftcolumn {
+    flex: 2;
+    margin-right: 300px;
+}
+
+.ninjabox {
+    list-style-type: none;
+    border-style: ridge;
+    border-color: black;
+    margin-top: 50px; 
+    display: flex;
+    height: 400px;
+}
+
+.ninjabox h1 {
+    font-size: 50px;
+    margin-left: 80px;
+}
+
+.ninjabox h2 {
+    font-size: 30px;
+    align-items: center;
+    margin-left: 90px;
+    margin-top: 30px;
+    font-style: italic;
+}
+
+.ninjabox h3 {
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+
+.ninjabox button {
+    height: 80px;
+    width: 200px;
+    background-color: yellow;
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    border-style: ridge;
+    border-color: black;
+}
+
+.leftside {
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.ninjabox button {
+    size: 100px;
+}
+
+.rightside {
+    align-content: center;
+    justify-content: space-evenly;
+    height: 400px;
+}
+
+.rightside p {
+    font-size: 35px;
+    margin-top: 150px;
+} 
+
+
+.topbox h1{
+    margin-top: 100px;
+} 
+
+
+ul {
+
+    font-size: 30px;
+    list-style-type: none;
+    margin-top: 90px;
+    text-align: center;
+    
+}
+
+
+.rightcolumn {
+    flex: 1;
+}
+
+.rightbox p {
+    font-size: 50px;
+    
+}
+    
+
+.rightbox {
+    height: 400px;
+    padding: 30px;
+    width: 800px;
+    align-items: center;
+    border-style: ridge;
+    border-color: black;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.rightbox button {
+    height: 100px;
+    width: 600px;
+    font-size: 50px;
+    background-color: green;
+
+}
+
+
+
+
+
